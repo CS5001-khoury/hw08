@@ -69,7 +69,7 @@ def convert_rating(val: float, min_s: int, max_s: int) -> str:
         max_s (int): the minimum number of stars.
 
     Returns:
-        str: stars between _MIN_STARS and _MAX_STARS
+        str: stars between min_s and max_s
     """
     val = int(val)  # safe to convert as long as it is a float
     if val < min_s:

@@ -32,7 +32,7 @@ various components.
 👉🏽 **TASK**: Write save_movies, and associated tests
 
 In star_app_loader, find the save_movies function. Your goal is to write to the filename provided
-every movie + rating, seperated by commas. For example, if your movies list looked like the following
+every movie + rating, separated by commas. For example, if your movies list looked like the following
 
 ```python 
 movies = [
@@ -72,7 +72,7 @@ def test1():
     save_movies("test1.txt", movies) # correct version in test1_correct.txt
 ```
 
-A "fancier" solution would be to read back in the file just saved as a simple read, and compare contents. For example
+A more elegant solution would be to read back in the file just saved as a simple read, and compare contents. For example
 
 ```python
 def compare_files(filename1, filename2):
@@ -109,7 +109,7 @@ is to write the movie loader `load_movies(filename)`
 A few other conditions
 * If the line is invalid/has a ValueError, `"Error reading line: {line}"` to `stderr`, where the line is the line
 in the file in question, and then skip it / keep reading lines. 
-* You may want to look at the utility functions in star_rating_utils
+* You may want to look at the utility functions in star_rating_utils.
 
 For example, if a file has the following contents:
 ```text
@@ -149,14 +149,21 @@ some of those areas, and what would an application involve?
 
 Add (AG) and (MG) next to tiers, add major conditions to meet to pass each tier. 
 
-1. Learning ()
-   * 
-2. Approaching  ()
-   * 
-3. Meets  ()
-   * 
-4. Exceeds  ()
-   * 
+1. Learning (AG)
+   * Able to save movies list to file
+2. Approaching  (AG)
+   * Able to load simple file into movies list
+3. Meets  (AG)
+   * Able to load file with errors lines into movies list
+   * Handles edge cases for saving
+   * Passes code style checks
+4. Exceeds  (MG)
+   * Design questions answered in readme
+   * Proper use of docstrings/comments/design
+   * Reflection questions answered in readme
+   * Other application discussions in readme file
+   * Student has provided tests for loader and save, along with files
+     used in testing. 
 
 
 AG - Auto-graded  
