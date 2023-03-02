@@ -47,4 +47,3 @@ def save_movies(filename: str, movies: List[Tuple[str, float]]) -> None:
 
     """
     # Student TODO
-
