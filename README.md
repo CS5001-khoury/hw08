@@ -146,8 +146,13 @@ some of those areas, and what would an application involve?
 
 ## 📝 Grading Rubric
 
+Make sure to submit, even if you didn't modify/edit
+* star_rating_loader.py
+* test_star_rating_loader.py
+* star_rating_utils.py (you shouldn't have modified this)
+* star_rating_app.py (you shouldn't have modified this)
+* README.md
 
-Add (AG) and (MG) next to tiers, add major conditions to meet to pass each tier. 
 
 1. Learning (AG)
    * Able to save movies list to file
