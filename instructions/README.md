@@ -59,3 +59,6 @@ For manually graded elements, we only guarantee time to submit for a regrade IF 
 
 ## 📚 Resources
   
+* [Real Python Read/Write Files](https://realpython.com/read-write-files-python/)
+* [Free Code Camp Reading Python Files](https://www.freecodecamp.org/news/how-to-read-files-in-python/)
+* [Using with to read/write files](https://www.statology.org/with-open-python/)
