@@ -17,7 +17,8 @@ from doc_stats_builder import (
     get_vowel_count,
     get_word_palindromes,
 )
-from doc_view import get_input, print_stats, read_file, write_json_file
+from doc_view import get_input, print_stats
+from doc_file_view import read_file, write_json_file
 
 # provided functions
 def get_stats_block(doc: tuple) -> tuple:
