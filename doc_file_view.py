@@ -1,5 +1,10 @@
 """ 
+Homework 08: File "View" For the Application
+===========================
+Course:   CS 5001
+Student:  Your Name
 
+This file contains functions to help with manipulating files and JSON.
 """
 
 
@@ -14,7 +19,7 @@ def read_file(file_path: str) -> tuple:
     Returns:
     tuple: A tuple with each line of the file as a string.
     """
-    return () # replace with your code
+    return ()  # replace with your code
 
 
 def write_json_file(doc_stats: tuple, file_path: str) -> None:
@@ -29,7 +34,8 @@ def write_json_file(doc_stats: tuple, file_path: str) -> None:
         doc_stats (tuple | list): the document statistics
         file_path (str): The path of the file to be written.
     """
-    ... # replace with your code, ... is same as pass
+    ...  # replace with your code, ... is same as pass
+
 
 def stats_to_json(doc_stats: tuple) -> str:
     """
@@ -51,7 +57,7 @@ def stats_to_json(doc_stats: tuple) -> str:
     Returns:
         str: the JSON formatted string
     """
-    return '' # replace with your code
+    return ""  # replace with your code
 
 
 if __name__ == "__main__":
