@@ -115,18 +115,22 @@ While we provide tests, reminder, you should test your own code before submittin
 
 1. Learning (AG)
    * stats_to_json works with a variety of tuples
-   * 
+   * get_input_file returns the proper filename
 2. Approaching  (AG)
    * write_json_to_file works with a variety of tuples
    * read_file with a standard file of a few lines, no spaces, no skipped lines
+   * get_input_file raises an exception if the file isn't listed
+   * get_output_file returns the proper filename
 3. Meets  (AG)
    * read_file works on an empty file
    * read_file works on a file with spaces and skipped lines
+   * get_output_file returns the proper filename when not specified (out.txt)
    * passes style checker
 4. Exceeds  (MG)
    * README.md questions answered
    * Proper comments and docstrings throughout code
    * Test files provided / evidence of testing and running the program
+   * main is implemented properly to execute the program
   
 
 AG - Auto-graded  
