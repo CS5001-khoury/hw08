@@ -12,12 +12,13 @@ def read_file(file_path: str) -> tuple:
     """
     Reads in a file and returns a tuple with each line as a string.
     Each line will have leading and trailing whitespace removed.
+    Empty lines are removed
 
     Args:
-    file_path (str): The path of the file to be read.
+        file_path (str): The path of the file to be read.
 
     Returns:
-    tuple: A tuple with each line of the file as a string.
+        tuple: A tuple with each line of the file as a string.
     """
     return ()  # replace with your code
 
