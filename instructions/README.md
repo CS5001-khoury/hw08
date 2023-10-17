@@ -114,11 +114,15 @@ You will need to submit your homework 07 files or the dummy files we provided. W
 While we provide tests, reminder, you should test your own code before submitting!
 
 1. Learning (AG)
+   * stats_to_json works with a variety of tuples
    * 
 2. Approaching  (AG)
-   * 
+   * write_json_to_file works with a variety of tuples
+   * read_file with a standard file of a few lines, no spaces, no skipped lines
 3. Meets  (AG)
-   * 
+   * read_file works on an empty file
+   * read_file works on a file with spaces and skipped lines
+   * passes style checker
 4. Exceeds  (MG)
    * README.md questions answered
    * Proper comments and docstrings throughout code
